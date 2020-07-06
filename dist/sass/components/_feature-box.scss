@@ -1,0 +1,147 @@
+.usluge-top_left {
+   display:flex;
+
+   flex-wrap:wrap;
+
+   @media (max-width:500px) {
+       flex-direction: column;
+       
+      
+   }
+   
+   
+}
+
+.usluge-top_box {
+border-right:1px dotted $color-tertiary;
+
+height:20rem;
+margin:0.2rem 0.2rem;
+display: flex;
+padding:2rem;
+align-items:center;
+flex-direction: column;
+
+flex-basis:49%;
+
+
+justify-content: center;
+align-content:center;
+background-color:rgba(83, 161, 217, 0.123);
+
+    &-right {
+        text-align: justify;
+        text-align:justify;
+        justify-self: end;
+        
+    }
+
+
+
+
+    &>h4 {
+        font-weight:300;
+        text-transform: uppercase;
+    }
+
+    &>span {
+        content:"\00a0";
+        background-color: #fff;
+        color:#fff;
+        width:2rem;
+        height:1px;
+        margin-top:1rem;
+
+    }
+
+    
+}
+
+.cta {
+
+    &_container {
+        
+        width:100%;
+        
+    }
+
+    &_heading {
+
+        margin-bottom:1rem;
+        
+
+        &>h1 {
+            font-weight:400;
+            font-size:4rem;
+
+            @media (max-width:56.25em) {
+                font-size:3.5rem;
+            }
+            
+            
+            
+            
+        }
+    }
+
+    &_number {
+        background-color:$color-white-transparent;
+        border-radius:2px;
+        text-align:center;
+        padding:1rem 0rem;
+        
+        
+
+        &>h2 {
+            font-weight:500;
+            width:100%;
+            
+            
+            
+    }
+        }
+}
+
+.cjenovnik {
+    display:flex;
+    align-items:start;
+    justify-content: center;
+    border: 1px solid #e6e7e8;
+    border-radius: 4px;
+    margin:auto;
+    text-align:center;
+
+    @media (max-width: 37.5em) {
+        flex-direction:column;
+        
+    }
+
+   
+    &_box{
+        border:1px solid #e6e7e8;
+        width:40.33%;
+        height:380px;
+
+        @media (max-width: 37.5em) {
+            width:100%;
+            
+        }
+
+        & h3 {
+            border-bottom:1px solid #e6e7e8;
+        }
+        & h4{
+            border-bottom:1px solid #e6e7e8;
+        }
+        & p {
+            border-bottom:1px solid #e6e7e8;
+            height:20rem;
+        }
+        & a {
+           
+        }
+
+    
+    }
+    
+}

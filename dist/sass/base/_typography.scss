@@ -1,0 +1,185 @@
+a{
+    text-decoration:none;
+    &:link {
+        color:inherit;
+    }
+
+    &:hover {
+        color:$color-primary;
+    }
+    &:visited {
+        color:inherit;
+    }
+    
+}
+
+
+p {
+     
+    color: #727070;
+ 
+}
+li {
+    list-style: none;
+}
+
+
+
+.heading_main {
+    background-color:$color-white-transparent;
+    width:65rem;
+    height:auto;
+    box-shadow:1px 1px 5px;
+    padding:2rem;
+    
+    
+
+    @media (max-width: 56.25em) {
+        width:49rem;
+        
+
+    }
+
+    @media (max-width: 37.5em) {
+        width:32rem;
+        
+        
+        
+
+    }
+
+    &-bicom {
+        width:100rem;
+
+        @media (max-width: 65.25em) {
+            width:70rem;
+            
+    
+        }
+
+        @media (max-width: 37.5em) {
+            width:32rem;
+            
+            
+            
+    
+        }
+
+
+    }
+    
+
+}
+.heading {
+
+    .hero-text-box{
+        padding-left:.5rem;
+    }
+
+    display:flex;
+    align-items:center;
+
+    &_primary {
+        font-size:5.2rem;
+        text-transform: uppercase;
+        color:$color-tertiary;
+        font-weight:400;
+
+        @media (max-width: 56.25em) {
+            font-size:4rem;
+            
+    
+        }
+
+        @media (max-width: 37.5em) {
+            font-size:3.2rem;
+            
+    
+        }
+
+        &>span {
+            color:$color-primary;
+        }
+    }
+
+    &_text {
+        color:$color-primary;
+        font-size:2rem;
+        font-weight:500;
+
+        @media (max-width: 37.5em) {
+            font-size:1.7rem;
+            
+    
+        }
+    }
+
+    &_box {
+        
+    }
+
+    &_btn {
+
+        margin-top:4rem;
+        @media (max-width: 37.5em) {
+            
+            
+            
+        }
+    }
+
+    &_secondary {
+        font-size:3.2rem;
+        text-transform: uppercase;
+        color:$color-tertiary;
+        font-weight:300;
+    }
+}
+
+.text {
+    text-align: justify;
+    padding-top:1rem;
+}
+
+
+.style_list {
+    padding-bottom:2rem;
+    & h4 {
+        color:$color-primary;
+        padding-bottom:2rem;
+    }
+
+    
+    
+    
+    &--item {
+
+        
+        color:#727070;
+        list-style: disc;
+        margin-left:3rem;
+        
+    }
+}
+
+.header-usluge-top_list--link{
+
+
+    &:link {
+        color:#fff;
+    }
+
+    &:active {
+        color:#fff;
+    }
+
+    &:hover {
+        opacity:0.8;
+    }
+
+    &:visited {
+        opacity:#fff;
+    }
+
+    
+}

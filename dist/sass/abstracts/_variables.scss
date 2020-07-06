@@ -1,0 +1,53 @@
+//COLORS
+
+$color-primary: #467CA7;
+$color-primary-light: #AFCCCE;
+$color-primary-dark: rgb(42, 64, 82);
+
+
+$color-secondary:  #467CA7;
+$color-secondary-light: #53A3DA;
+
+$color-tertiary: #121332;
+$color-white:#FFF;
+$color-white-transparent:rgba(255, 255, 255, 0.178);
+$color-black:#000;
+$color-black-light:rgba(22, 21, 21, 0.835);
+$color-grey:#8C9DB4;
+$color-grey-light:#D8E7EF;
+$default-font-size: 1.6rem;
+//#727070
+
+//Bootstrap default base setup
+
+$theme-colors: (
+  "primary": #467CA7,
+  "danger": #AFCCCE,
+  "light":#EAF2F5,
+  "gray":#a6abb2,
+  "secondary":rgb(42, 64, 82),
+  "dark":#727070,
+  "white":#fff
+  
+);
+
+$grid-gutter-width:           30px;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px
+) !default;
+
+
+$font-family-sans-serif:Poppins, sans-serif;
+$body-bg:    #FFFFFF;
+$body-color: #404040;
+
+$link-hover-decoration:none;
+$font-weight-bold:600;
+$font-weight-normal:500;
+
+
+

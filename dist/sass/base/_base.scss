@@ -1,0 +1,54 @@
+*,
+*,::after,
+*::before {
+    margin:0px;
+    padding:0px;
+    box-sizing: inherit
+}
+/*APP ID
+ELftfMhq9D7QTlinOIxg
+APP CODE
+Kpw8KlqgH23GR5DrnquaVw
+*/
+
+
+/*Api Key = AIzaSyAcBVbqX0LQNWpYwlYxoTNJ5m4wp4etqII */
+
+
+html {
+    font-family: 'Poppins', sans-serif;
+    // This define what 1rem is 
+    font-size:62.5%; //1rem = 10px , 10px/16px = 62%  
+    height:auto;
+
+    @media (max-width: 75em) {
+        font-size:58.5%;
+        
+
+    }
+
+    @media (max-width: 56.25em) {
+        font-size:54.5%;
+        
+
+    }
+
+}
+body {
+    
+    background-color: $color-white;
+    box-sizing: border-box;
+    color:$color-white;
+    font-size:1.7rem;
+    font-weight: 300;
+    height:auto;
+    
+
+    @media (max-width: 75em) {
+        font-size:1.5rem;
+    } 
+    
+
+
+}
+

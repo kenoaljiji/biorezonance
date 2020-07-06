@@ -1,0 +1,35 @@
+.usluge_box {
+    overflow:hidden;
+    margin-top:2rem;
+    
+
+    &--image{
+        width:100%;
+        border-radius:3px;
+        height:auto;
+        overflow:hidden;
+        
+    }
+
+    &--heading {
+       color:$color-tertiary;
+       
+    }
+
+    &--text {
+        margin-top:1rem;
+        margin-bottom:3rem;
+        height:8.3rem;
+
+           
+        @media (max-width:56.25em) {
+            height: 6rem;
+            margin-top:1rem;
+            margin-bottom:2rem;
+
+        }      
+        }
+
+        
+
+}

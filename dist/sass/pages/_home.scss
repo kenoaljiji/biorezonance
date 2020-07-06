@@ -1,0 +1,292 @@
+.wrapper {
+    overflow:auto;
+    
+}
+
+nav {
+    background-color: $color-white;
+    
+}
+.heading {
+    background:linear-gradient(to bottom ,rgba(242, 244, 245, 0.575), rgba(248, 249, 250, 0.637)),url(/images/skeleton1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:top;
+    color:$color-white;
+    height:60vh;
+    /*clip-path: polygon(50% 0%, 100% 0, 100% 75%, 52% 84%, 0 75%, 0 0);*/
+    margin-top: 17.38rem;
+    
+}
+
+.heading--cjenovnik {
+    background:linear-gradient(to bottom ,rgba(242, 244, 245, 0.575), rgba(248, 249, 250, 0.637)),url(/images/bicom_pozadina.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:top;
+    color:$color-white;
+    height:60vh;
+    /*clip-path: polygon(50% 0%, 100% 0, 100% 75%, 52% 84%, 0 75%, 0 0);*/
+    margin-top: 17.38rem;
+    display:flex;
+    align-items: center;
+    
+}
+.heading--intolerancija {
+    background:linear-gradient(to bottom ,rgba(242, 244, 245, 0.575), rgba(248, 249, 250, 0.637)),url(/images/intolerancija.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:top;
+    color:$color-white;
+    height:60vh;
+    /*clip-path: polygon(50% 0%, 100% 0, 100% 75%, 52% 84%, 0 75%, 0 0);*/
+    margin-top: 17.38rem;
+    display:flex;
+    align-items: center;
+    
+}
+.heading--bicom {
+    background:linear-gradient(to bottom ,rgba(242, 244, 245, 0.575), rgba(248, 249, 250, 0.637)),url(/images/bioresonance.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:top;
+    color:$color-white;
+    height:60vh;
+    /*clip-path: polygon(50% 0%, 100% 0, 100% 75%, 52% 84%, 0 75%, 0 0);*/
+    margin-top: 17.38rem;
+    display:flex;
+    align-items: center;
+}
+.heading--candida {
+    background:linear-gradient(to bottom ,rgba(242, 244, 245, 0.575), rgba(248, 249, 250, 0.637)),url(/images/candida1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:top;
+    color:$color-white;
+    height:60vh;
+    /*clip-path: polygon(50% 0%, 100% 0, 100% 75%, 52% 84%, 0 75%, 0 0);*/
+    margin-top: 17.38rem;
+    display:flex;
+    align-items: center;
+}
+.heading--about {
+    background:linear-gradient(to bottom ,rgba(242, 244, 245, 0.575), rgba(248, 249, 250, 0.637)),url(/images/ordinacija1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:top;
+    color:$color-white;
+    height:60vh;
+    /*clip-path: polygon(50% 0%, 100% 0, 100% 75%, 52% 84%, 0 75%, 0 0);*/
+    margin-top: 17.38rem;
+    display:flex;
+    align-items: center;
+
+}
+
+.heading--alergija {
+    background:linear-gradient(to bottom ,rgba(242, 244, 245, 0.575), rgba(248, 249, 250, 0.637)),url(/images/allergy2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:top;
+    color:$color-white;
+    height:60vh;
+    /*clip-path: polygon(50% 0%, 100% 0, 100% 75%, 52% 84%, 0 75%, 0 0);*/
+    margin-top: 17.38rem;
+    display:flex;
+    align-items: center;
+}
+.heading--detox {
+    background:linear-gradient(to bottom ,rgba(242, 244, 245, 0.575), rgba(248, 249, 250, 0.637)),url(/images/detoxhead.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:top;
+    color:$color-white;
+    height:60vh;
+    /*clip-path: polygon(50% 0%, 100% 0, 100% 75%, 52% 84%, 0 75%, 0 0);*/
+    margin-top: 17.38rem;
+    display:flex;
+    align-items: center;
+}
+.heading--probava {
+    background:linear-gradient(to bottom ,rgba(242, 244, 245, 0.575), rgba(248, 249, 250, 0.637)),url(/images/gastritis.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:top;
+    color:$color-white;
+    height:60vh;
+    /*clip-path: polygon(50% 0%, 100% 0, 100% 75%, 52% 84%, 0 75%, 0 0);*/
+    margin-top: 17.38rem;
+    display:flex;
+    align-items: center;
+}
+.heading--stres {
+    background:linear-gradient(to bottom ,rgba(242, 244, 245, 0.575), rgba(248, 249, 250, 0.637)),url(/images/stress.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:top;
+    color:$color-white;
+    height:60vh;
+    /*clip-path: polygon(50% 0%, 100% 0, 100% 75%, 52% 84%, 0 75%, 0 0);*/
+    margin-top: 17.38rem;
+    display:flex;
+    align-items: center;
+}
+.heading--pusenje {
+    background:linear-gradient(to bottom ,rgba(242, 244, 245, 0.589), rgba(248, 249, 250, 0.637)),url(/images/pusenje.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:top;
+    color:$color-white;
+    height:60vh;
+    /*clip-path: polygon(50% 0%, 100% 0, 100% 75%, 52% 84%, 0 75%, 0 0);*/
+    margin-top: 17.38rem;
+    display:flex;
+    align-items: center;
+}
+.heading--analiza {
+    background:linear-gradient( rgba(242, 244, 245, 0.705),  rgba(248, 249, 250, 0.637)),url(/images/analizatjela.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:top;
+    color:$color-white;
+    height:60vh;
+    /*clip-path: polygon(50% 0%, 100% 0, 100% 75%, 52% 84%, 0 75%, 0 0);*/
+    margin-top: 17.38rem;
+    display:flex;
+    align-items: center;
+}
+.heading--fizioterapija {
+    background:linear-gradient( rgba(242, 244, 245, 0.705),  rgba(248, 249, 250, 0.637)),url(/images/fizioterapijabig.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:top;
+    color:$color-white;
+    height:60vh;
+    /*clip-path: polygon(50% 0%, 100% 0, 100% 75%, 52% 84%, 0 75%, 0 0);*/
+    margin-top: 17.38rem;
+    display:flex;
+    align-items: center;
+}
+.heading--radioterapija {
+    background:linear-gradient( rgba(242, 244, 245, 0.705),  rgba(248, 249, 250, 0.637)),url(/images/radiofrkfencija.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:top;
+    color:$color-white;
+    height:60vh;
+    /*clip-path: polygon(50% 0%, 100% 0, 100% 75%, 52% 84%, 0 75%, 0 0);*/
+    margin-top: 17.38rem;
+    display:flex;
+    align-items: center;
+}
+
+.bicom {
+    padding:6rem 0;
+
+    @media (max-width: 56.25em) {
+        padding:6rem .5rem;
+    }
+
+}
+section {
+    @media (max-width: 56.25em) {
+        padding-top:4rem;
+    }
+}
+
+.usluge-top {
+    
+    background:linear-gradient(to bottom ,rgba(70, 123, 167, 0.698),rgba(70, 123, 167, 0.404)),
+    url(/images/usluge.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:top;
+    padding:5rem 0;
+    color:$color-white;
+    height:100%;
+    width:100%;
+
+}        
+.usluge {
+    margin-top:5rem;
+    margin-bottom:10rem;
+}
+
+.cta {
+    padding-top:3rem;
+    padding-bottom:1rem;
+    width:100%;
+    height:auto;
+    background-color:$color-primary;
+}
+
+.section-book {
+    padding-top:3rem;
+    padding-bottom:0rem;
+    background-image: linear-gradient(to right bottom, $color-primary, $color-primary);
+
+    
+        @include respond(tab-port) {
+        padding: 0rem 0;
+    }
+
+}
+
+.book{
+    
+    background-image: linear-gradient(105deg,
+                         rgba($color-tertiary, 0.5) 0%,
+                         rgba($color-tertiary, 0.9) 50%,
+                        transparent 50%);
+                        
+    background-size: 100%;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, .2);
+
+    @include respond(tab-land) {
+
+        background-image: linear-gradient(105deg,
+        rgba($color-tertiary, 0.5) 0%,
+        rgba($color-tertiary, 0.9) 80%,
+       transparent 50%);
+                        
+    background-size: cover;
+    }
+    @include respond(tab-port){
+
+        background-image: linear-gradient(105deg,
+        rgba($color-tertiary, 0.7) 100%,
+        rgba($color-tertiary, 0.3) 100%,
+       transparent 50%);
+                         
+    background-size: cover;
+
+    }
+
+        
+
+
+    &__form {
+        width: 100%;
+        padding: 6rem;
+        
+        
+        @include respond(tab-land)
+            {
+                width:70%;
+            }
+
+        @include respond(tab-land)
+            {
+                width:100%;
+            }
+    }
+}
+.maps {
+    padding:0;
+    border-top:1px solid $color-tertiary;
+}
+
+.footer {
+    padding-top:5rem;
+}

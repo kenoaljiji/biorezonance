@@ -1,0 +1,38 @@
+.footer {
+    padding-top:5rem;
+    border-top:1px solid $color-tertiary;
+    /*background-image: linear-gradient(to bottom, $color-primary, $color-primary);*/
+    background-color:$color-primary;
+
+    @media (max-width:56.35em) {
+        padding-top:0rem;
+    }
+
+    &_heading{
+        
+    }
+   
+    &_logo {
+        &--box  {
+            &>img {
+                
+                height:auto;
+            }
+        }
+    }
+    &_opening {
+        padding:2rem;
+        box-shadow:1px 0px 10px rgba(#eee, 0.4);
+        border-radius:0.8rem;
+    }
+    &_opening>ul>li>p {
+        color:rgba($color-white, 0.8);
+    }
+
+    
+}
+
+.copyright {
+    background-color: $color-tertiary;
+    padding:0.5rem 0;
+}
