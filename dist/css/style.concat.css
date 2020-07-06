@@ -1416,7 +1416,7 @@ nav {
   background: linear-gradient(to bottom, rgba(242, 244, 245, 0.589), rgba(248, 249, 250, 0.637)), url(/images/pusenje.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: center;
   color: #FFF;
   height: 60vh;
   /*clip-path: polygon(50% 0%, 100% 0, 100% 75%, 52% 84%, 0 75%, 0 0);*/
