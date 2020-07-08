@@ -1,6 +1,8 @@
 # biorezonance
 Biorezonance medicine website
 
+live-page: https://kenoaljiji.github.io/biorezonance/
+
 Bicomoptima bioresonance health organization  
 
 Just type in cmd npm install . After finishing installation type npm run to start live server .
