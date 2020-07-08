@@ -7,7 +7,6 @@ Just type in cmd npm install . After finishing installation type npm run to star
 If you see an error when you type npm run, just try to update versions of live server and node-sass
 you can install both dependencies with
 
-npm install live-server
-npm install node sass
+npm install node-sass live-server
 
 designed and developed by Aljiji Kenan
